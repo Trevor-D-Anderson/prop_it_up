@@ -16,6 +16,18 @@ function App() {
         age={65}
         hairColor={"Bald"}
       />
+      <Personcard
+        firstName={"Santa"}
+        lastName={"Klaus"}
+        age={300}
+        hairColor={"White"}
+      />
+      <Personcard
+        firstName={"Michael"}
+        lastName={"Jackson"}
+        age={50}
+        hairColor={"Black"}
+      />
     </main>
   );
 }

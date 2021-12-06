@@ -7,8 +7,8 @@ const Personcard = (props) => {
       <h1 className="font-bold text-xl">
         {firstName} {lastName}
       </h1>
-      <h2>{age}</h2>
-      <h2>{hairColor}</h2>
+      <h2>Age: {age}</h2>
+      <h2>Hair Color: {hairColor}</h2>
     </div>
   );
 };
